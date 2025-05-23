@@ -66,7 +66,7 @@ nav a:focus {
     /* Hidden by default; only show on mobile */
     padding: 14px 20px;
     font-size: 24px;
-    color: #fff;/
+    color: #fff;
     cursor: pointer;
     user-select: none;
 }
