@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Murphy | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Kevin Murphy</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Professional Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                After a significant career in the commercial aviation and radio/telecommunications fields, I made a pivot into the software development space.
+                Every stage of my journey, spanning a number of different technologies, has been filled with learning and growth.
+                I am excited to share my journey with you.
+            </p>
+            <p>
+                Additional information about me can be found at the links below:
+            </p>
+            <div class="about-me-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
+                <figure>
+                    <img src="images/dotnetmurf.jpg" alt="My Personal Website image" style="width:100%; height:auto;">
+                    <a href="https://dotnetmurf.net" target="_blank" rel="noopener noreferrer">My Personal Website</a>
+                </figure>
+                <figure>
+                    <img src="images/github.jpg" alt="My GitHub Profile image" style="width:100%; height:auto;">
+                    <a href="https://github.com/dotnetmurf" target="_blank" rel="noopener noreferrer">My GitHub Profile</a>
+                </figure>
+            </div>
+        </section>
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <p>
+                Additional information about my experience:
+            </p>
+            <div class="experience-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
+                <figure>
+                    <img src="images/american-airlines.jpg" alt="American Airlines Website image" style="width:100%; height:auto;">
+                    <a href="https://www.aa.com/" target="_blank" rel="noopener noreferrer">American Airlines</a>
+                </figure>
+                <figure>
+                    <img src="images/bell-labs.jpg" alt="Bell Labs Website image" style="width:100%; height:auto;">
+                    <a href="https://en.wikipedia.org/wiki/Bell_Labs" target="_blank" rel="noopener noreferrer">AT&T Bell Laboratorties</a>
+                </figure>
+                <figure>
+                    <img src="images/jpmc.jpg" alt="JP Morgan Chase Website image" style="width:100%; height:auto;">
+                    <a href="https://www.jpmorganchase.com/" target="_blank" rel="noopener noreferrer">JP Morgan Chase</a>
+                </figure>
+                <figure>
+                    <img src="images/united-airlines.jpg" alt="United Airlines Website image" style="width:100%; height:auto;">
+                    <a href="https://www.united.com/en/us/" target="_blank" rel="noopener noreferrer">United Airlines</a>
+                </figure>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>
+                Additional information about my personal projects:
+            </p>
+            <div class="projects-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;">
+                <figure>
+                    <img src="images/skycomm.jpg" alt="SkyComm Website image" style="width:100%; height:auto;">
+                    <a href="https://skycommportal.azurewebsites.net/" target="_blank" rel="noopener noreferrer">The SkyComm Portal</a>
+                </figure>
+                <figure>
+                    <img src="images/youtube.jpg" alt="My YouTube Channel image" style="width:100%; height:auto;">
+                    <a href="https://www.youtube.com/channel/UCmbAKQ-y7s_ML_usKTenxbQ" target="_blank" rel="noopener noreferrer">My YouTube Channel</a>
+                </figure>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>.NET (Framework/Core)</li>
+                    <li>C#</li>
+                    <li>ASP.NET MVC</li>
+                    <li>Entity Framework Core</li>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Kevin Murphy. All rights reserved.</p>
+    </footer>
+</body>
+</html>
