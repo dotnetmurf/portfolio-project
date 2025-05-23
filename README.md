@@ -1,5 +1,7 @@
 # portfolio-project
-Final project for the Microsoft Introduction to Web Development course on Coursera.
+This repository contains my final project for the Microsoft Introduction to Web Development course on 
+Coursera. This project was developed in the Microsoft VS Code IDE using GitHub Copilot as a coding assistant,
+per course requirements.
 
 ## Overview
 
