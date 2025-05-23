@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Kevin Murphy's professional portfolio showcasing experience in aviation, telecommunications, and software development, including projects, skills, and contact information.">
+    <meta name="description"
+        content="Kevin Murphy's professional portfolio showcasing experience in aviation, telecommunications, and software development, including projects, skills, and contact information.">
     <title>Kevin Murphy | Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header role="banner">
-        <nav id="navMenu" role="navigation">
-            <h1>Kevin Murphy</h1>
+        <h1>Kevin Murphy</h1>
+        <!-- Hamburger icon that will toggle the menu when clicked -->
+        <div class="hamburger" id="hamburger">&#9776;</div>
+        <!-- Navigation menu; note the id for JavaScript targeting -->
+        <nav class="nav-menu" id="nav-menu" role="navigation">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Professional Experience</a></li>
@@ -23,10 +29,13 @@
         <section id="about" aria-labelledby="about-heading">
             <h2 id="about-heading">About Me</h2>
             <p>
-                After a significant career in the commercial aviation and radio/telecommunications fields, I made a pivot into the software development space.
-                Every stage of my journey, spanning a number of different technologies, has been filled with learning and growth.
+                After a significant career in the commercial aviation and radio/telecommunications fields, I made a
+                pivot into the software development space.
+                Every stage of my journey, spanning a number of different technologies, has been filled with learning
+                and growth.
                 I am excited to share my journey with you.
             </p>
+            <br>
             <p>
                 Additional information about me can be found at the links below:
             </p>
@@ -37,14 +46,16 @@
                 </figure>
                 <figure>
                     <img src="images/github.jpg" alt="My GitHub Profile image">
-                    <a href="https://github.com/dotnetmurf" target="_blank" rel="noopener noreferrer">My GitHub Profile</a>
+                    <a href="https://github.com/dotnetmurf" target="_blank" rel="noopener noreferrer">My GitHub
+                        Profile</a>
                 </figure>
             </div>
         </section>
         <section id="experience" aria-labelledby="experience-heading">
             <h2 id="experience-heading">Professional Experience</h2>
             <p>
-                Additional information about my experience:
+                I have been fortunate to work with some amazing companies throughout my career.
+                Below are some of the companies I have worked with, along with links to their websites.
             </p>
             <div class="experience-grid">
                 <figure>
@@ -53,31 +64,39 @@
                 </figure>
                 <figure>
                     <img src="images/bell-labs.jpg" alt="Bell Labs Website image">
-                    <a href="https://en.wikipedia.org/wiki/Bell_Labs" target="_blank" rel="noopener noreferrer">AT&T Bell Laboratorties</a>
+                    <a href="https://en.wikipedia.org/wiki/Bell_Labs" target="_blank" rel="noopener noreferrer">AT&T
+                        Bell Laboratorties</a>
                 </figure>
                 <figure>
                     <img src="images/jpmc.jpg" alt="JP Morgan Chase Website image">
-                    <a href="https://www.jpmorganchase.com/" target="_blank" rel="noopener noreferrer">JP Morgan Chase</a>
+                    <a href="https://www.jpmorganchase.com/" target="_blank" rel="noopener noreferrer">JP Morgan
+                        Chase</a>
                 </figure>
                 <figure>
                     <img src="images/united-airlines.jpg" alt="United Airlines Website image">
-                    <a href="https://www.united.com/en/us/" target="_blank" rel="noopener noreferrer">United Airlines</a>
+                    <a href="https://www.united.com/en/us/" target="_blank" rel="noopener noreferrer">United
+                        Airlines</a>
                 </figure>
             </div>
         </section>
         <section id="projects" aria-labelledby="projects-heading">
             <h2 id="projects-heading">Projects</h2>
             <p>
-                Additional information about my personal projects:
+                My primary personal project The SkyComm Resource Portal. It is a web application that is modeled after a
+                corporate intranet.
+                It is built using ASP.NET Core MVC and Entity Framework Core, and it is hosted on Azure.
+                My YouTube channel is a host site for my video demonstrations of the SkyComm application.
             </p>
             <div class="projects-grid">
                 <figure>
                     <img src="images/skycomm.jpg" alt="SkyComm Website image">
-                    <a href="https://skycommportal.azurewebsites.net/" target="_blank" rel="noopener noreferrer">The SkyComm Portal</a>
+                    <a href="https://skycommportal.azurewebsites.net/" target="_blank" rel="noopener noreferrer">The
+                        SkyComm Resource Portal</a>
                 </figure>
                 <figure>
                     <img src="images/youtube.jpg" alt="My YouTube Channel image">
-                    <a href="https://www.youtube.com/channel/UCmbAKQ-y7s_ML_usKTenxbQ" target="_blank" rel="noopener noreferrer">My YouTube Channel</a>
+                    <a href="https://www.youtube.com/channel/UCmbAKQ-y7s_ML_usKTenxbQ" target="_blank"
+                        rel="noopener noreferrer">My YouTube Channel</a>
                 </figure>
             </div>
         </section>
@@ -99,14 +118,14 @@
             <h2 id="contact-heading">Contact</h2>
             <form role="form">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
+                <input type="text" id="name" name="name">
+
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
+                <input type="email" id="email" name="email">
+
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                
+                <textarea id="message" name="message"></textarea>
+
                 <button type="submit">Send</button>
             </form>
         </section>
@@ -114,6 +133,7 @@
     <footer role="contentinfo">
         <p>&copy; 2025 Kevin Murphy. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
+
 </html>
