@@ -381,3 +381,22 @@ footer {
         max-width: 500px;
     }
 }
+
+/* Add a subtle transform effect for figure elements on hover/focus */
+.about-me-grid figure,
+.experience-grid figure,
+.projects-grid figure {
+    transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.about-me-grid figure:hover,
+.about-me-grid figure:focus-within,
+.experience-grid figure:hover,
+.experience-grid figure:focus-within,
+.projects-grid figure:hover,
+.projects-grid figure:focus-within {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 8px 24px rgba(26, 35, 126, 0.18);
+    outline: 2px solid #ffb300;
+    outline-offset: 2px;
+}
